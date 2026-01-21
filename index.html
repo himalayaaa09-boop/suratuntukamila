@@ -130,9 +130,17 @@
                   </p>
 
 
-      <audio controls autoplay>
-        <source src="/sorai1.mp3">
-      </audio>
+      <audio id="bgm">
+  <source src="lagu.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="playMusic()">lanjut</button>
+
+<script>
+function playMusic() {
+  document.getElementById("bgm").play();
+}
+</script>
 
       <p>
         Kamila,
